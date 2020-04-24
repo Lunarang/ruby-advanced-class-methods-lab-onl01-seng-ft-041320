@@ -7,16 +7,16 @@ class Song
   end
   
   def self.create
-    @@all << song.new
+    @@all << Song.new
   end
   
   def self.new_by_name(name)
-    name = song.new 
+    name = Song.new 
     @name = name 
   end
     
   def self.creat_by_name(name) 
-    name = song.new 
+    name = Song.new 
     @name = name 
     @@all << @name
   end
