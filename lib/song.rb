@@ -15,6 +15,15 @@ class Song
     @name = name 
   end
     
+  def self.creat_by_name(name) 
+    name = song.new 
+    @name = name 
+    @@all << @name
+  end
+  
+  def self.find_by_name(name)
+    @@all.find 
+    
   def save
     self.class.all << self
   end
